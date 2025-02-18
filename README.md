@@ -74,7 +74,7 @@ This assignment should prove that a student is able to:
 - [x] Create unique random shapes for the following external elements of the face:
   - [x] Hair style
   - [x] Left ear
-  - [ ] Right ear _/{Can't use right ear due to 3D}/_
+  - [] Right ear _/{Can't use right ear due to 3D head}/_
   - [ ] **!!!Optional** Add any other part you want.
 - [ ] Shapes must follow the guidelines:
   - [x] Each shape must be unique. It is permissible to use the same shape for two paired face elements, but they must have different orientations or directions.
@@ -96,11 +96,11 @@ This assignment should prove that a student is able to:
 
 `For the Legal Page exercise`
 
-- [ ] Watch the [Legal Page INTRO video](https://www.loom.com/share/3c655c8a97ce4783a4698d7968c03c33?sid=b776b29f-cecb-4cc7-8663-7c3f1722f190).
-- [ ] Edit the following files to solve that part of the assignment:
-  - [ ] html: `/pages/legal-page.html`
-  - [ ] css: `/css/legal-page.css`
-- [ ] The page heading container should be "pinned" in the top right beneath the header and take the full width of the viewport, regardless of how far the user scrolls down the page content.
-- [ ] The footer should be anchored to the bottom of the viewport, ensuring it remains visible even while scrolling.
-- [ ] The section label should stay fixed in its parent while the user is scrolling through the current section.
-- [ ] The content should not get obscured by any of the containers at the top and bottom of the page.
+- [x] Watch the [Legal Page INTRO video](https://www.loom.com/share/3c655c8a97ce4783a4698d7968c03c33?sid=b776b29f-cecb-4cc7-8663-7c3f1722f190).
+- [x] Edit the following files to solve that part of the assignment:
+  - [x] html: `/pages/legal-page.html`
+  - [x] css: `/css/legal-page.css`
+- [x] The page heading container should be "pinned" in the top right beneath the header and take the full width of the viewport, regardless of how far the user scrolls down the page content.
+- [x] The footer should be anchored to the bottom of the viewport, ensuring it remains visible even while scrolling.
+- [x] The section label should stay fixed in its parent while the user is scrolling through the current section.
+- [x] The content should not get obscured by any of the containers at the top and bottom of the page.
