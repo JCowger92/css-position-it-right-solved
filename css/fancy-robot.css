@@ -5,33 +5,30 @@
   width: 800px;
   height: 800px;
   background-color: #fff;
-  /* top: 30%;
-  left: 40%;
-  right: 40%; */
 }
 
 .robot-face-shape {
   position: relative;
-  /* control the depth */
-  --d: 50px;
+  --d: 3rem;
   height: 300px;
   padding: 10px;
   aspect-ratio: 1;
   box-sizing: border-box;
-  border: solid #0000;
+  border: groove #0000;
   border-width: var(--d) var(--d) 0 0;
+  border-radius: 10%;
   clip-path: polygon(
     0 100%,
     calc(100% - var(--d)) 100%,
     100% calc(100% - var(--d)),
     100% 0,
     var(--d) 0,
-    0 var(--d)
+    0 var(--d) inset(45% 45% 45% 45% round 10px)
   );
   margin: auto;
   background: conic-gradient(
       from 45deg at calc(100% - var(--d)) var(--d),
-      #0004 37.5%,
+      #0004 38.5%,
       #0000 0 62.5%,
       #0008 0
     )
@@ -94,7 +91,6 @@
   position: absolute;
   left: 253px;
   top: 50px;
-  /* HTML: <div class="spiral"></div> */
   --b: 3px; /* border thickness */
   --s: 45px; /* preferred size shape */
   --c: #7a614b;
@@ -118,25 +114,15 @@
       50% 0;
   background-size: 150% 50%;
   background-repeat: no-repeat;
-  /* mask: radial-gradient(
-        calc(1.5 * var(--b)) at calc(100% - var(--b) / 2) 0,
-        #0000 calc(100% / 3),
-        #000 calc(100% / 3 + 1px) 110%,
-        #0000 0
-      )
-      calc(50% + var(--b) / 2) 100% / calc(3 * var(--b)) 50% exclude no-repeat,
-    conic-gradient(#000 0 0); */
 }
 
 .ear-dangle {
   position: absolute;
   top: 36px;
   left: 21px;
-  /* HTML: <div class="lollipop"></div> */
   --r: 15px; /* control the size */
   --c1: #fd99d7;
   --c2: #4e4cb0;
-
   height: calc(2 * var(--r));
   aspect-ratio: 1;
   clip-path: ellipse(7px 14px at 50% 50%);
@@ -194,9 +180,6 @@
   left: 15px;
   width: 200px;
   height: 100px;
-  /* --top: clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 100px), 0 100%);
-  --bottom: clip-path: polygon(0 100px, 50% 0, 100% 100px, 100% 100%, 0 100%);
-  --m: -95px; */
 }
 
 .robot-teeth-top {
@@ -262,7 +245,6 @@
   top: 100px;
   left: 250px;
   rotate: 180deg;
-  /* HTML: <div class="curved-edge"></div> */
   --c: 70px; /* control the curvature (works with percentage) */
   height: 200px;
   width: 250px;
@@ -276,7 +258,6 @@
   position: absolute;
   top: 100px;
   left: 269px;
-  /* HTML: <div class="trapezoid"></div> */
   --p: 69px; /* control the shape (can be percentage) */
   height: 248px;
   aspect-ratio: 3/2;
